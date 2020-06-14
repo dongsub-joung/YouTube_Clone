@@ -1,0 +1,22 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "cloning Youtube wiht vanilla and node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongsub-joung/utubeClon.git"
+  },
+  "author": "JOUNG DONG SEOB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongsub-joung/utubeClon/issues"
+  },
+  "homepage": "https://github.com/dongsub-joung/utubeClon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
