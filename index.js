@@ -10,10 +10,16 @@ function handleListening()
 
 function handleHome(req, res) //request obj, response obj
 {
-  //console.log(res);
   res.send("Hi form Home!!");
 } // 변수가 없으면 서버는 무한 Lording
 
+function handleProfile(req, res)
+{
+  res.send("You are on my profile");
+}
+
 app.get("/", handleHome);
+
+app.get("/profile", handleProfile);
 
 app.listen(PORT,handleListening);
